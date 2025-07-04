@@ -16,6 +16,8 @@ public class ImportmapResource {
 
     private String importmap;
 
+    // See https://github.com/WICG/import-maps/issues/235
+    // This does not seem to be supported by browsers yet...
     @GET
     @Path("/dynamic.importmap")
     @Produces("application/importmap+json")
