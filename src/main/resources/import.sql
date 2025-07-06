@@ -8,9 +8,9 @@ INSERT INTO customer (id, firstName, lastName) VALUES (5, 'Drifty', 'Skiddy');
 ALTER SEQUENCE customer_seq RESTART WITH 5;
 
 INSERT INTO booking (id, customer_id, dateFrom, dateTo, location)
-VALUES (1, 1, '2024-07-10', '2024-07-15', 'Brussels, Belgium');
+VALUES (1, 1, '2025-07-13', '2025-07-23', 'Brussels, Belgium');
 INSERT INTO booking (id, customer_id, dateFrom, dateTo, location)
-VALUES (2, 1, '2024-08-05', '2024-08-12', 'Los Angeles, California');
+VALUES (2, 1, '2025-08-05', '2025-08-20', 'Los Angeles, California');
 INSERT INTO booking (id, customer_id, dateFrom, dateTo, location)
 VALUES (3, 1, '2024-10-01', '2024-10-07', 'Geneva, Switzerland');
 
